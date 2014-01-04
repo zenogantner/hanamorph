@@ -10,20 +10,20 @@ For others, like German, it only returns the stem and the suffixes.
 Examples
 --------
 
-echo "éttermek" | ./hanamorph.pl --lang=hu_HU
-éttermek
- st:étterem po:noun ts:PLUR ts:NOM
+    echo "éttermek" | ./hanamorph.pl --lang=hu_HU
+    éttermek
+     st:étterem po:noun ts:PLUR ts:NOM
 
 
-echo "Tische und Stühle" | ./hanamorph.pl --lang=de_DE
-Tische
- st:tisch fl:E
- st:Tisch fl:E
+    echo "Tische und Stühle" | ./hanamorph.pl --lang=de_DE
+    Tische
+     st:tisch fl:E
+     st:Tisch fl:E
 
-und
- st:und
-
-Stühle
+    und
+     st:und
+    
+    Stühle
 
 
 Installation
